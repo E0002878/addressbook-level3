@@ -5,7 +5,7 @@ import seedu.addressbook.data.AddressBook;
 
 
 
-public class Storage {
+public abstract class Storage {
 	
 	public static class StorageOperationException extends Exception {
 		public StorageOperationException(String message) {
